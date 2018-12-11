@@ -2,26 +2,25 @@ MMD4Mecanim LipSync Plugin
 ==========================
 
 
-はじめに
---------
-MMD4Mecanim を適用したモデルまたはユニティちゃんモデルにアタッチすることで以下の機能を実現するプラグインです。
-- WAVE データの音声に同期したリップシンク
-- 入力した日本語をリップシンクしながら発話
-- マイク入力に合わせたリップシンク
+Features
+------------------------------------------------
+- Allows use of wav audio files for lip syncing
+- Use a microphone and see your character talk as you talk in real time!
+- Text to speech (japanese)
 
 
-動作環境
---------
+Requirements
+-------------
 - Mac / Win
 - Unity 5
 
 
-使用しているソフトウェア・ライブラリ
-------------------------------------
+What's inside
+----------------------------------------------------
 - OpenJTalk
 	- http://open-jtalk.sourceforge.net/
 	- 音声合成に利用しています。
-- Mei (Voice Data Only)
+- Sample vowel data
 	- http://sourceforge.net/projects/mmdagent/
 	- 音声合成の声として利用しています。
 - nkf
